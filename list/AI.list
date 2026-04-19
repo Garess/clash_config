@@ -1,45 +1,136 @@
-# 内容：OpenAi Bard anthropic
-# 域名关键字匹配
-# DOMAIN-KEYWORD,openai
-# DOMAIN-KEYWORD,anthropic
-# DOMAIN-KEYWORD,Claude
-# 域名后缀匹配
-DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,bing.com
+# ========================================
+# AI Routing Rules (Optimized)
+# For OpenClash / Clash Meta / Mihomo
+# ========================================
 
+# ===== OpenAI / ChatGPT =====
+DOMAIN,chat.openai.com
+DOMAIN,api.openai.com
+DOMAIN,auth0.openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,makersuite.google.com
+
+# ===== Anthropic / Claude =====
+DOMAIN,claude.ai
+DOMAIN,api.anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,circumlunar.space
-DOMAIN-SUFFIX,vulpes.one
-DOMAIN-SUFFIX,mozz.us
-DOMAIN-SUFFIX,conman.org
-DOMAIN-SUFFIX,bortzmeyer.org
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,difyai.com
-DOMAIN-SUFFIX,genspark.ai
 
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,x.ai
+# ===== Google Gemini / AI Studio =====
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,generativelanguage.googleapis.com
 
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,signalr.net
+# ===== xAI / Grok =====
+DOMAIN,x.ai
+DOMAIN,grok.com
+
+# ===== Perplexity =====
+DOMAIN,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# ===== Poe =====
+DOMAIN,poe.com
+
+# ===== OpenRouter =====
+DOMAIN,openrouter.ai
+
+# ===== Mistral =====
+DOMAIN,mistral.ai
+DOMAIN,api.mistral.ai
+
+# ===== Groq =====
+DOMAIN,groq.com
+DOMAIN,api.groq.com
+
+# ===== Cohere =====
+DOMAIN,cohere.ai
+
+# ===== Hugging Face =====
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# ===== Stability AI =====
+DOMAIN-SUFFIX,stability.ai
+
+# ===== Replicate =====
+DOMAIN,replicate.com
+
+# ===== Midjourney =====
+DOMAIN-SUFFIX,midjourney.com
+
+# ===== Runway =====
+DOMAIN-SUFFIX,runwayml.com
+
+# ===== Civitai =====
+DOMAIN,civitai.com
+
+# ===== Suno / Udio =====
+DOMAIN,suno.com
+DOMAIN,udio.com
+
+# ===== Character.AI =====
+DOMAIN-SUFFIX,character.ai
+
+# ===== Phind =====
+DOMAIN,phind.com
+
+# ===== You.com =====
+DOMAIN,you.com
+
+# ===== DeepSeek =====
+DOMAIN-SUFFIX,deepseek.com
+
+# ===== Moonshot / Kimi =====
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+
+# ===== Qwen / DashScope =====
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,dashscope.aliyuncs.com
+
+# ===== MiniMax =====
+DOMAIN-SUFFIX,minimax.io
+DOMAIN-SUFFIX,minimaxi.com
+
+# ===== Zhipu / GLM =====
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,zhipuai.cn
+
+# ===== 01.AI =====
+DOMAIN-SUFFIX,01.ai
+DOMAIN-SUFFIX,lingyiwanwu.com
+
+# ===== Together / Fireworks / Cerebras =====
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,cerebras.ai
+
+# ===== Lepton / Novita / SambaNova =====
+DOMAIN-SUFFIX,lepton.ai
+DOMAIN-SUFFIX,novita.ai
+DOMAIN-SUFFIX,sambanova.ai
+
+# ===== Notion AI =====
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+
+# ===== Grammarly =====
+DOMAIN-SUFFIX,grammarly.com
+
+# ===== Cursor =====
+DOMAIN,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+
+# ===== Codeium / Windsurf =====
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,windsurf.com
+
+# ===== GitHub Copilot（尽量精准，避免误伤）=====
+DOMAIN,githubcopilot.com
+DOMAIN,api.githubcopilot.com
+
+# ===== 结束 =====
+# 不要加 MATCH
