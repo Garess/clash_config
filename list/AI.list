@@ -10,6 +10,11 @@ DOMAIN,auth0.openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+# ===== OpenAI 移动端补充（关键）=====
+DOMAIN,android.chat.openai.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,chat.openai.com
+DOMAIN-SUFFIX,openai.com
 
 # ===== Anthropic / Claude =====
 DOMAIN,claude.ai
